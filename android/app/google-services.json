@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338272397563",
+    "project_id": "glass-morphism-a1c02",
+    "storage_bucket": "glass-morphism-a1c02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338272397563:android:0b91d09714c2671570685e",
+        "android_client_info": {
+          "package_name": "com.example.glass_morphism"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2Mj9G_nOI8WN7jl2pWPdyO_25ouIknc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
