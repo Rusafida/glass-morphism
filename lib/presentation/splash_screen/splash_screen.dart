@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../grid_details/home.dart';
 import '../../main.dart';
 
 
@@ -16,7 +17,7 @@ class _ScreenSplashState extends State<ScreenSplash> {
     super.initState();
     Future.delayed(const Duration(milliseconds: 1200), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const MainScreen()));
+          context, MaterialPageRoute(builder: (context) => const Home()));
     });
   }
   @override

@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:glass_morphism/firebase_options.dart';
-import 'package:glass_morphism/grid_details/grid_items_home.dart';
+import 'package:glass_morphism/grid_details/home.dart';
 import 'package:glass_morphism/presentation/authentication/signIn.dart';
 import 'package:glass_morphism/presentation/authentication/signUp.dart';
 import 'presentation/splash_screen/splash_screen.dart';
@@ -41,7 +41,7 @@ class MainScreen extends StatelessWidget {
             } else if (snapshot.hasError) {
               return const Center(child: Text('Error detected'));
             } else if (snapshot.hasData) {
-              return const GridHome();
+              return const Home();
             } else {
               return const AuthPage();
             }
